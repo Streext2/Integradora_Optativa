@@ -66,11 +66,11 @@ export default function Socios() {
         <Button glow onClick={() => abrir('nuevo')}><Icon name="plus" size={18} />Nuevo socio</Button>
       </PageHead>
 
-      <div className="grid grid-auto" style={{ marginBottom: 20 }}>
+      <div className="grid grid-stats" style={{ marginBottom: 20 }}>
         {[
           ['todos', 'Socios', 'socios'],
           ['ok', 'Activas', 'check'],
-          ['warn', 'Por vencer (≤ 7 días)', 'reloj'],
+          ['warn', 'Por vencer', 'reloj'],
           ['danger', 'Vencidas', 'alerta'],
         ].map(([k, label, icon]) => (
           <div className="card stat" key={k}>

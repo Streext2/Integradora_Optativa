@@ -95,7 +95,7 @@ Para **detenerla**: en la terminal presiona `Ctrl + C`.
 
 ## 5. Cómo usarla (recorrido para el demo)
 
-En la barra lateral, **"Ver como"** cambia de rol (todavía no hay inicio de sesión).
+En la barra superior, los botones **Socio · Recepción · Entrenador** cambian de rol (todavía no hay inicio de sesión).
 
 ### Socio (rol por defecto · Mariana López)
 1. **Mi membresía** → plan Mensual, sucursal Centro, vence 15/12/2026 → **Renovar membresía** → elige plan y método →
@@ -106,7 +106,7 @@ En la barra lateral, **"Ver como"** cambia de rol (todavía no hay inicio de ses
    o **eliminar** sesiones.
 4. **Mi rutina** → días con ejercicios; al hacer clic en un ejercicio te lleva a registrarlo.
 
-Con *"Socio de demostración"* cambias de socio. Carlos tiene la membresía **por vencer** y Daniela la tiene **vencida**.
+Con el selector de socio de la barra superior cambias de socio de demostración. Hay socios con la membresía **por vencer** (Luis) y **vencida** (Daniela); el estado depende de la fecha de hoy.
 
 ### Recepción
 - **Socios** → alta (**Nuevo socio**), editar, **Renovar**, registrar acceso y dar de baja. Filtros por estado y buscador.
@@ -117,7 +117,7 @@ Con *"Socio de demostración"* cambias de socio. Carlos tiene la membresía **po
 - **Rutinas** → elige un socio → crea, edita o elimina rutinas (ejercicios por series o cardio por minutos).
 
 ### Restablecer los datos
-Abajo en la barra lateral: **"Datos de demostración · Restablecer"** regresa todo a los datos originales.
+Abajo en la barra lateral: **"Modo demostración · Restablecer"** regresa todo a los datos originales.
 
 ---
 

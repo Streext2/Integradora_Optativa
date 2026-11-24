@@ -28,7 +28,7 @@ export default function Membresia() {
         <ErrorState error={error} onRetry={reload} />
       ) : (
         <div className="grid grid-main">
-          <section className="card" aria-labelledby="plan-actual">
+          <section className="card card-hero" aria-labelledby="plan-actual">
             <div className="row-between">
               <span className="label" id="plan-actual">Plan</span>
               <StatusPill membresia={m} />

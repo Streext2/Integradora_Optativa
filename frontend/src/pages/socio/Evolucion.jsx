@@ -72,7 +72,7 @@ export default function Evolucion() {
             <LineChart puntos={data.puntos} />
           </section>
 
-          <div className="grid grid-auto">
+          <div className="grid grid-stats">
             <div className="card stat">
               <div className="stat-icon"><Icon name="trofeo" /></div>
               <span className="label">Mejor marca</span>

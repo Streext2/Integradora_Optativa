@@ -8,7 +8,7 @@ Proyecto integrador #8 · UTEZ. El contexto completo está en `GYMTRACK_CONTEXT 
 - **Frontend (React + Vite)**: listo y funcional con datos de demostración.
 - **API simulada en el navegador** (`frontend/src/api/mock/`): implementa los mismos endpoints y contratos de la sección 6
   (renovación transaccional, SK `ejercicio#fecha_hora`, evolución con `begins_with`, validaciones 400/403/404/409).
-  Los datos viven en `localStorage` y se pueden restablecer desde la barra lateral.
+  Los datos viven en `localStorage` y se pueden restablecer desde la barra lateral ("Restablecer").
 - **Pendiente:** Lambdas, RDS, DynamoDB, Secrets Manager, IAM, S3 + CloudFront (fase AWS).
 
 ## Correr en local
@@ -33,7 +33,7 @@ Sin esa variable se usa la API simulada.
 | **Recepción** | Socios (alta, edición, baja lógica o física, renovar, registrar acceso), Control de acceso por sucursal |
 | **Entrenador** | Rutinas por socio (crear, editar, eliminar; ejercicios por series o por tiempo) |
 
-El rol se cambia en la barra lateral ("Ver como") mientras no exista autenticación con Cognito.
+El rol se cambia en la barra superior (Socio · Recepción · Entrenador) mientras no exista autenticación con Cognito.
 
 ## Endpoints que consume el frontend
 
