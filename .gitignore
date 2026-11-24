@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+build/
+dist/
+*.pem
+.aws/
+.aws-sam/
+*.log
+.DS_Store
